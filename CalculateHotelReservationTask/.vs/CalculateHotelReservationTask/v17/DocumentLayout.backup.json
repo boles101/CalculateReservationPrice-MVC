@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Boles\\School\\Innovix Task MVC\\CalculateHotelReservationTask\\",
+  "WorkspaceRootPath": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|d:\\boles\\school\\innovix task mvc\\calculatehotelreservationtask\\services\\reservationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|d:\\boles\\school\\innovix task mvc\\cloned repo\\calculatereservationprice-mvc\\calculatehotelreservationtask\\models\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|solutionrelative:models\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|d:\\boles\\school\\innovix task mvc\\cloned repo\\calculatereservationprice-mvc\\calculatehotelreservationtask\\services\\reservationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|solutionrelative:services\\reservationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|d:\\boles\\school\\innovix task mvc\\cloned repo\\calculatereservationprice-mvc\\calculatehotelreservationtask\\models\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|solutionrelative:models\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|d:\\boles\\school\\innovix task mvc\\cloned repo\\calculatereservationprice-mvc\\calculatehotelreservationtask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|d:\\boles\\school\\innovix task mvc\\cloned repo\\calculatereservationprice-mvc\\calculatehotelreservationtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|d:\\boles\\school\\innovix task mvc\\cloned repo\\calculatereservationprice-mvc\\calculatehotelreservationtask\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A8B83F-C401-45D7-9200-439D1D3DCBDC}|CalculateHotelReservationTask.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +39,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Models\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Models\\ReservationRepository.cs",
+              "ToolTip": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Models\\ReservationRepository.cs",
+              "RelativeToolTip": "Models\\ReservationRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwCMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T15:09:16.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Models\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "Models\\IReservationRepository.cs",
+              "ToolTip": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Models\\IReservationRepository.cs",
+              "RelativeToolTip": "Models\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T15:09:23.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ReservationServices.cs",
-              "DocumentMoniker": "D:\\Boles\\School\\Innovix Task MVC\\CalculateHotelReservationTask\\Services\\ReservationServices.cs",
+              "DocumentMoniker": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Services\\ReservationServices.cs",
               "RelativeDocumentMoniker": "Services\\ReservationServices.cs",
-              "ToolTip": "D:\\Boles\\School\\Innovix Task MVC\\CalculateHotelReservationTask\\Services\\ReservationServices.cs",
+              "ToolTip": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Services\\ReservationServices.cs",
               "RelativeToolTip": "Services\\ReservationServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T19:36:35.018Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T20:29:22.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAWwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T20:29:22.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "D:\\Boles\\School\\Innovix Task MVC\\Cloned Repo\\CalculateReservationPrice-MVC\\CalculateHotelReservationTask\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAWwIkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T20:29:13.72Z"
             }
           ]
         }

@@ -24,8 +24,8 @@ namespace CalculateHotelReservationTask.Controllers
         {
             var viewModel = new ReservationViewModel
             {
-                RoomTypes = _reservationRepository.GetRoomTypes(),
-                MealPlans = _reservationRepository.GetMealPlans()
+                RoomTypes = _reservationRepository.RoomTypes(),
+                MealPlans = _reservationRepository.MealPlans()
             };
             return View(viewModel);
         }
