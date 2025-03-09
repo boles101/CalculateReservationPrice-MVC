@@ -1,6 +1,6 @@
 ﻿@model ReservationViewModel
 
-
+    
 <div class="container mt-5">
     <div class="row justify-content-lg-center">
         <div class="col-md-8">
@@ -9,37 +9,36 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="adults">Number of Adults:</label>
-                        <input asp-for="@Model.ReservationData.NumberOfAdults" type="number" class="form-control text-muted"
-                        id="adults" required placeholder="Number of Adults" min="1">
+                        <input asp-for="@Model.ReservationData.NumberOfAdults" type="number"  class="form-control text-muted "
+                        id="adults"  placeholder="Enter number of adults"  min="1" >
+                        <span class="text-danger mt-3"  asp-validation-for="@Model.ReservationData.NumberOfAdults"></span>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="children">Number of Children:</label>
                         <input asp-for="@Model.ReservationData.NumberOfChildren" type="number" class="form-control text-muted"
-                               id="children"  placeholder="Number of Children"min="0">
+                               id="children" placeholder="Enter number of children" min="0" >
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="roomType">Room Type:</label>
-                    <select asp-for="@Model.ReservationData.SelectedRoomTypeId" asp-items="@Model.RoomTypes" class="form-control w-50 text-muted " required>
-                        <option value="">Select a room type</option>
+                    <select asp-for="@Model.ReservationData.SelectedRoomTypeId" asp-items="@Model.RoomTypes"  class="form-control w-50 " >
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="mealPlan">Meal Plan:</label>
-                    <select asp-for="@Model.ReservationData.SelectedMealPlanId" asp-items="@Model.MealPlans" class="form-control  w-50  text-muted" required>
-                        <option value="">Select a meal plan</option>
+                    <select asp-for="@Model.ReservationData.SelectedMealPlanId" asp-items="@Model.MealPlans" class="form-control   w-50 ">
                     </select>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="checkIn">Check-in Date:</label>
                         <input asp-for="@Model.ReservationData.CheckInDate" type="date" class="form-control" id="checkIn"
-                               min="@DateTime.Today.ToString("yyyy-MM-dd")"  required onchange="updateCheckoutMinDate()">
+                               min="@DateTime.Today.ToString("yyyy-MM-dd")"   onchange="updateCheckoutMinDate()">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="checkOut">Check-out Date:</label>
                         <input asp-for="@Model.ReservationData.CheckOutDate" type="date" class="form-control" id="checkOut"
-                               min="@DateTime.Today.AddDays(1).ToString("yyyy-MM-dd")" required>
+                               min="@DateTime.Today.AddDays(1).ToString("yyyy-MM-dd")" >
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block mt-3  ">Calculate Total Price</button>

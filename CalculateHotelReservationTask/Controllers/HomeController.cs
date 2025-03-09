@@ -25,7 +25,13 @@ namespace CalculateHotelReservationTask.Controllers
             var viewModel = new ReservationViewModel
             {
                 RoomTypes = _reservationRepository.RoomTypes(),
-                MealPlans = _reservationRepository.MealPlans()
+                MealPlans = _reservationRepository.MealPlans(),
+                ReservationData = new ReservationDto()
+                {
+                    NumberOfAdults = 1,
+                    CheckInDate = DateOnly.FromDateTime(DateTime.Today),
+                    CheckOutDate = DateOnly.FromDateTime(DateTime.Today.AddDays(1))
+                }
             };
             return View(viewModel);
         }
