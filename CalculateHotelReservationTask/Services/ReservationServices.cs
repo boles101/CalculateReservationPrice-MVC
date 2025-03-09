@@ -31,25 +31,28 @@ namespace CalculateHotelReservationTask.Services
                 .GetMealPlanRates(reservation.SelectedMealPlanId,reservation.CheckInDate,reservation.CheckOutDate);
 
             if (!(roomRates.Any() && mealPlans.Any()))
-                return (0,0);       // the database is not seeded or something went wrong.
+                return (0,0);                            // the database is not seeded or something went wrong.
 
             for (DateOnly date = reservation.CheckInDate; date < reservation.CheckOutDate; date = date.AddDays(1))
             {
-                var ratePrice = roomRates
+
+                var ratePricePerDay = roomRates
                      .FirstOrDefault(x => date >= x.StartDate && date <= x.EndDate)?.Price ?? 0;
                 var mealPrice = mealPlans
                     .FirstOrDefault(x => date >= x.StartDate && date <= x.EndDate)?.Price ?? 0;
-                if (ratePrice == 0 || mealPrice == 0)
+
+
+                if (ratePricePerDay == 0 || mealPrice == 0)
                 {
                     Console.WriteLine("The room rate or the meal plan my have returned null (not found)");
                     return (0, 0);
                 }
-                decimal totalMealPricePerDay = (decimal)(mealPrice * (reservation.NumberOfAdults + reservation.NumberOfChildren));
 
-                totalPrice += ratePrice + totalMealPricePerDay;
-                totalMealPricePerDay = 0;
+                decimal totalMealPricePerDay = (decimal)(mealPrice * (reservation.NumberOfAdults + reservation.NumberOfChildren));
+                
+                totalPrice += (rooms * ratePricePerDay ) + totalMealPricePerDay;
             }
-            return (totalPrice,rooms);
+            return (totalPrice ,rooms);
         }
 
         

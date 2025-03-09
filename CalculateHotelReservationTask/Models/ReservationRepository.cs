@@ -15,16 +15,16 @@ namespace CalculateHotelReservationTask.Models
         public int CalculateNumberOfRooms(int numberOfAdults, int numberOfChildren)
         {
             { 
-                // hard coded which is not an optimal solution..yes 3aref! 
+                // hard coded which is not an optimal solution..! 
                 const int MaxChildrenPerRoom = 2;
                 const int MaxAdultsPerRoom = 2;
                 const int MaxCapacityPerRoom = 4;
 
-                int totalRoomsForAdults = (numberOfAdults + MaxAdultsPerRoom - 1) / MaxAdultsPerRoom;
-                int totalRoomsForChildren = (numberOfChildren + MaxChildrenPerRoom - 1) / MaxChildrenPerRoom;
-                int totalRooms = (numberOfAdults + numberOfChildren + MaxCapacityPerRoom - 1) / MaxCapacityPerRoom;
+                int roomsBasedOnAdults = (numberOfAdults + MaxAdultsPerRoom - 1) / MaxAdultsPerRoom;
+                int roomsBasedOnChilderen = (numberOfChildren + MaxChildrenPerRoom - 1) / MaxChildrenPerRoom;
+                int roomsBasedOnMaxCapacity = (numberOfAdults + numberOfChildren + MaxCapacityPerRoom - 1) / MaxCapacityPerRoom;
 
-                return Math.Max(Math.Max(totalRoomsForAdults, totalRoomsForChildren), totalRooms);
+                return Math.Max(Math.Max(roomsBasedOnAdults, roomsBasedOnChilderen), roomsBasedOnMaxCapacity);
 
             }
         }
